@@ -1,0 +1,166 @@
+h1, h2, h3, h4 {
+    font-family: "Work Sans", "Work Sans Placeholder", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: #707070;
+
+} 
+
+
+header nav img {
+    width:100px;
+  }
+  
+
+header li {
+    margin: 0 8px;
+}
+
+header .bg{
+    background-color: #ffffff;
+}
+
+
+body{
+    padding-top: 70px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.jumbotron{
+    background-color: #ffffff;
+ }
+
+#intro .jumbotron {
+    height: 60vh;
+
+}
+
+.btnPrimary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 16px 16px;
+    border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro .container {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+
+#homeabout img {
+    border-radius: 100%;
+    width: 300px;
+}
+
+#homeabout {
+    background-color: #000000;
+}
+
+#homeabout .bgwithradius{
+    background-color: #ffffff;
+    border-radius: 0px 0px 50px 50px;
+    padding: 80px 0;
+}
+
+
+
+#homeprojects {
+    background-color: rgb(247, 247, 247);
+    padding: 80px 0;
+
+}
+
+#homeprojects .container{
+    width: 70%;
+}
+
+#homeprojects img{
+    border-radius: 16px;
+}
+
+#homeprojects .lower{
+    margin-top: 24px;
+}
+
+.projecttag{
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: #000000 1px solid;
+}
+
+#homeprojects .box{
+    padding: 16px;
+}
+
+#homecontact{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+
+
+}
+
+#homecontact a{
+    color: #fff;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 16px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 42px;
+    }
+    
+    #homeabout h3{
+        margin-top: 16px;
+        text-align: center;
+    }
+    #homeabout p{
+        text-align: center;
+    }
+}
