@@ -1,6 +1,6 @@
 h1, h2, h3, h4 {
-    font-family: "Work Sans", "Work Sans Placeholder", sans-serif;
-    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     font-style: normal;
     margin-bottom: 32px;
     line-height: 1.5;
@@ -75,6 +75,15 @@ img {
     border-radius: 4px;
 }
 
+
+
+.box-link {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Keep the text color unchanged */
+    display: block; /* Make it take full width */
+}
+
+
 a {
   text-decoration: none;
 }
@@ -105,7 +114,7 @@ transform: translateY(-50%);
 
 
 #homeprojects {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     padding: 80px 0;
 
 }
