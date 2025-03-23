@@ -114,8 +114,22 @@ transform: translateY(-50%);
     width: 70%;
 }
 
-#homeprojects img{
-    border-radius: 16px;
+
+
+.upper {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.zoom-img{
+    width: 100%;
+    transition: transform 0.7s ease;
+}
+
+.upper:hover .zoom-img{
+    transform: scale(1.2) ;
 }
 
 #homeprojects .lower{
